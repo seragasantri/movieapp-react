@@ -1,4 +1,3 @@
-import { logDOM } from "@testing-library/react";
 import axios from "axios";
 
 export const getMovieList = async() => {
