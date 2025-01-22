@@ -50,8 +50,10 @@ The build files will be created in the `build` folder.
 
 Create a `.env` file in the root directory and add the following variables:
 ```
-REACT_APP_API_KEY=your_api_key_here
-REACT_APP_API_URL=https://api.themoviedb.org/3
+REACT_APP_BASEURL=https://api.themoviedb.org/3
+REACT_APP_BASEIMGURL=https://image.tmdb.org/t/p/
+REACT_APP_APIKEY=1fdfd0ff490e300536a6d3849d6d5527
+REACT_APP_TOKEN=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIxZmRmZDBmZjQ5MGUzMDA1MzZhNmQzODQ5ZDZkNTUyNyIsInN1YiI6IjY1MGJkZTI1NGRhM2Q0MDBjOWRjYTZhZiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.GCKueV-iFnLrVwvcGEQzqPbZIwG9FrHMVsFNFKFn40w
 ```
 
 ## Features
